@@ -26,6 +26,6 @@ class SingleTon(object):
 if __name__ == '__main__':
     s = SingleTon(1)
     t = SingleTon(2)
-    print s is t
-    print s.a, t.a
-    print s.val, t.val
+    print(s is t)
+    print(s.a, t.a)
+    print(s.val, t.val)
