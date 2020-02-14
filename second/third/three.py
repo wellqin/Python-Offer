@@ -28,4 +28,4 @@ if __name__ == '__main__':
               [2, 3, 6],
               [3, 6, 7]]
     num = 6
-    print find_integer(matrix, num)
+    print (find_integer(matrix, num))
